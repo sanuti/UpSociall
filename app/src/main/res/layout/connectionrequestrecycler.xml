@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/userimgrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/userrequest"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#F27673"
+        app:civ_border_width="10dp" />
+
+    <com.example.sarthak.sanuti.Activities.customviews.PlainTextView
+        android:id="@+id/userrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="141dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="57dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:text="User name" />
+
+    <com.example.sarthak.sanuti.Activities.customviews.PlainTextView
+        android:id="@+id/usergenrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/userdisrequest"
+        android:layout_alignBottom="@+id/userdisrequest"
+        android:layout_toLeftOf="@+id/rejectrequest"
+        android:layout_toStartOf="@+id/rejectrequest"
+        android:text="USER GENDER" />
+
+    <com.example.sarthak.sanuti.Activities.customviews.PlainTextView
+        android:id="@+id/userdisrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/userimgrequest"
+        android:layout_centerHorizontal="true"
+        android:text="USER DISTANCE" />
+
+    <ImageView
+        android:id="@+id/acceptrequest"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/userdisrequest"
+        android:layout_alignRight="@+id/userdisrequest"
+        android:layout_below="@+id/usergenrequest"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginTop="35dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_thumb_up" />
+
+    <ImageView
+        android:id="@+id/rejectrequest"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/userdisrequest"
+        android:layout_alignStart="@+id/userdisrequest"
+        android:layout_alignTop="@+id/acceptrequest"
+        android:layout_marginLeft="83dp"
+        android:layout_marginStart="83dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_thumb_down" />
+
+    <TextView
+        android:id="@+id/ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/usergenrequest"
+        android:layout_toEndOf="@+id/userrequest"
+        android:layout_toRightOf="@+id/userrequest"
+        android:text="No Request now but keep swiping"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="gone" />
+
+</RelativeLayout>

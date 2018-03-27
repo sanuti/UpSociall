@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "151572966855",
+    "firebase_url": "https://sanuti-77939.firebaseio.com",
+    "project_id": "sanuti-77939",
+    "storage_bucket": "sanuti-77939.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151572966855:android:4e56b3783907ed47",
+        "android_client_info": {
+          "package_name": "com.example.sarthak.sanuti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151572966855-nffi1bda0j3ndr9eo4li4k7bd7gbmgtb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarthak.sanuti",
+            "certificate_hash": "bb47a935f89a44dc352a521ff794cf3f5407f01f"
+          }
+        },
+        {
+          "client_id": "151572966855-6i0l5r21i3vo6d756alm5c0dc3sfjb69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmuIuHyHFSkPTi-mF2sbgE0dMKKp4az8Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151572966855-6i0l5r21i3vo6d756alm5c0dc3sfjb69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

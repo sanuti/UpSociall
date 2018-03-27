@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">#UpSociall</string>
+    <string name="facebook_app_id">2316937078532432</string>
+    <string name="fb_login_protocol_scheme">fb2316937078532432</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prefrences">app</string>
+    <string name="no_age">Don\'t Show My Age</string>
+    <string name="control_your_profile">Profile Setting</string>
+    <string name="no_dist">Don\'t Show My Distance</string>
+    <string name="interested_in">Interested In</string>
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="radioBoth">Both</string>
+
+</resources>

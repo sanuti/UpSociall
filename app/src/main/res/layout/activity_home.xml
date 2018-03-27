@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@style/forfragments"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.sarthak.sanuti.Activities.actiivity.HomeActivity">
+
+  <!--  <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />-->
+    <include layout="@layout/toolbaaaa"></include>
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+       <!-- <fragment
+            android:id="@+id/fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />-->
+      <fragment
+          android:id="@+id/fragment"
+          android:name="com.example.sarthak.sanuti.Activities.Fragments.FindPeopleFragments"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+    </FrameLayout>
+    <!--android:name="com.example.sarthak.sanuti.Activities.Fragments.FindPeopleFragments"-->
+  <android.support.design.widget.BottomNavigationView
+      android:id="@+id/navigation"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="bottom"
+      android:background="?android:attr/windowBackground"
+      android:fadeScrollbars="false"
+      app:menu="@menu/navigation" />
+</LinearLayout>
